@@ -16,6 +16,7 @@
 		92D657011C9BDA35008665E1 /* OperatorsConditionalBoolean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D657001C9BDA35008665E1 /* OperatorsConditionalBoolean.swift */; };
 		92D657031C9BDAFC008665E1 /* RxBlocking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D657021C9BDAFC008665E1 /* RxBlocking.swift */; };
 		92D657051C9CA5F2008665E1 /* SkipUntil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D657041C9CA5F2008665E1 /* SkipUntil.swift */; };
+		92D657071C9CA6F3008665E1 /* Publish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D657061C9CA6F3008665E1 /* Publish.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		92D657001C9BDA35008665E1 /* OperatorsConditionalBoolean.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperatorsConditionalBoolean.swift; sourceTree = "<group>"; };
 		92D657021C9BDAFC008665E1 /* RxBlocking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxBlocking.swift; sourceTree = "<group>"; };
 		92D657041C9CA5F2008665E1 /* SkipUntil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkipUntil.swift; sourceTree = "<group>"; };
+		92D657061C9CA6F3008665E1 /* Publish.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Publish.swift; sourceTree = "<group>"; };
 		BFAFEEA394AACD45CD39E6DF /* Pods-RxSwift-RxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-RxTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift-RxTests/Pods-RxSwift-RxTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,12 +112,29 @@
 		92D656F41C9BD969008665E1 /* RxSwift-RxTestsTests */ = {
 			isa = PBXGroup;
 			children = (
-				92D656F71C9BD969008665E1 /* Info.plist */,
-				92D657001C9BDA35008665E1 /* OperatorsConditionalBoolean.swift */,
+				92D657081C9CA705008665E1 /* Conditional and Boolean */,
+				92D657091C9CA71E008665E1 /* Connectable */,
 				92D657021C9BDAFC008665E1 /* RxBlocking.swift */,
-				92D657041C9CA5F2008665E1 /* SkipUntil.swift */,
+				92D656F71C9BD969008665E1 /* Info.plist */,
 			);
 			path = "RxSwift-RxTestsTests";
+			sourceTree = "<group>";
+		};
+		92D657081C9CA705008665E1 /* Conditional and Boolean */ = {
+			isa = PBXGroup;
+			children = (
+				92D657001C9BDA35008665E1 /* OperatorsConditionalBoolean.swift */,
+				92D657041C9CA5F2008665E1 /* SkipUntil.swift */,
+			);
+			name = "Conditional and Boolean";
+			sourceTree = "<group>";
+		};
+		92D657091C9CA71E008665E1 /* Connectable */ = {
+			isa = PBXGroup;
+			children = (
+				92D657061C9CA6F3008665E1 /* Publish.swift */,
+			);
+			name = Connectable;
 			sourceTree = "<group>";
 		};
 		A387005B47263D6DDE053737 /* Frameworks */ = {
@@ -290,6 +309,7 @@
 				92D657051C9CA5F2008665E1 /* SkipUntil.swift in Sources */,
 				92D657031C9BDAFC008665E1 /* RxBlocking.swift in Sources */,
 				92D657011C9BDA35008665E1 /* OperatorsConditionalBoolean.swift in Sources */,
+				92D657071C9CA6F3008665E1 /* Publish.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

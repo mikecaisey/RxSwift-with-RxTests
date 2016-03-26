@@ -17,6 +17,7 @@
 		92D657031C9BDAFC008665E1 /* RxBlocking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D657021C9BDAFC008665E1 /* RxBlocking.swift */; };
 		92D657051C9CA5F2008665E1 /* SkipUntil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D657041C9CA5F2008665E1 /* SkipUntil.swift */; };
 		92D657071C9CA6F3008665E1 /* Publish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D657061C9CA6F3008665E1 /* Publish.swift */; };
+		92FC806B1CA6F1B800111C67 /* Readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 92FC806A1CA6F1B800111C67 /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		92D657021C9BDAFC008665E1 /* RxBlocking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxBlocking.swift; sourceTree = "<group>"; };
 		92D657041C9CA5F2008665E1 /* SkipUntil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkipUntil.swift; sourceTree = "<group>"; };
 		92D657061C9CA6F3008665E1 /* Publish.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Publish.swift; sourceTree = "<group>"; };
+		92FC806A1CA6F1B800111C67 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		BFAFEEA394AACD45CD39E6DF /* Pods-RxSwift-RxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-RxTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift-RxTests/Pods-RxSwift-RxTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +81,7 @@
 		92D656D41C9BD969008665E1 = {
 			isa = PBXGroup;
 			children = (
+				92FC806A1CA6F1B800111C67 /* Readme.md */,
 				92D656DF1C9BD969008665E1 /* RxSwift-RxTests */,
 				92D656F41C9BD969008665E1 /* RxSwift-RxTestsTests */,
 				92D656DE1C9BD969008665E1 /* Products */,
@@ -299,6 +302,7 @@
 			files = (
 				92D656E31C9BD969008665E1 /* ViewController.swift in Sources */,
 				92D656E11C9BD969008665E1 /* AppDelegate.swift in Sources */,
+				92FC806B1CA6F1B800111C67 /* Readme.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,11 +15,11 @@ class RxSwiftRxTestSkipUntil : XCTestCase {
         let observableA = scheduler.createHotObservable([
             next(10, 1), next(20, 2), next(30, 3), next(40, 4), next(50, 5),
             next(60, 6), next(70, 7), next(80, 8), next(90, 9), next(100, 10)
-            ]).asObservable()
+        ]).asObservable()
         
         let observableB = scheduler.createHotObservable([
             next(55, true), next(75, true)
-            ]).asObservable()
+        ]).asObservable()
         
         let skipUntil = observableA.skipUntil(observableB)
         
